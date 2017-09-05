@@ -1,0 +1,24 @@
+{
+    "name" : "Artboard Border",
+    "identifier" : "com.plugin.sketch.artboardborder",
+    "version" : "1.0",
+    "description" : "Applies borders to a selected artboard.",
+    "authorEmail" : "jonny86cats@gmail.com",
+    "author" : "Jon Sullivan",
+    "commands" : [
+    {
+      "script" : "artboard-border.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift b",
+      "name" : "Artboard Border",
+      "identifier" : "command.artboardborder"
+    },
+    {
+      "script" : "remove-borders.js",
+      "handler" : "onRun",
+      "shortcut" : "command control option d",
+      "name" : "Remove Borders",
+      "identifier" : "command.removerborders"
+    }
+  ]
+}
